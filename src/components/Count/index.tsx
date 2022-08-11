@@ -17,7 +17,6 @@ export const Count: React.FC<{}> = () => {
     setTimeout(() => {
       setNow(dayjs());
     }, 1000);
-    console.log(now);
   }, [now]);
 
   return (
