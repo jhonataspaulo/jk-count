@@ -1,0 +1,25 @@
+.texts {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.texts h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.texts h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .texts h1 {
+    font-size: 3rem;
+  }
+
+  .texts h2 {
+    font-size: 2rem;
+  }
+}

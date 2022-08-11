@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+
+.boxNumber {
+  width: 12rem;
+  height: 12rem;
+  background: #d9d9d9;
+  border-radius: 0.8rem;
+  display: grid;
+  place-items: center;
+}
+
+.digit {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(37, 37, 37);
+}
+
+span {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}

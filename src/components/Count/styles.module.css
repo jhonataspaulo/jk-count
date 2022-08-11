@@ -1,0 +1,13 @@
+.box {
+  max-width: 97rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 4rem auto 0;
+  padding: 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
